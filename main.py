@@ -8,13 +8,13 @@
 # else:
 #     print("0")
 
-# c = [[0,1,2,3]
-#      [4,5,6,7]
-#      [8,9,10,11]]
-#
-# for i in range(2):
-#     for j in range(3):
-#         print(c[i][j])
+c = [[0,1,2,3],
+     [4,5,6,7],
+     [8,9,10,11]]
+
+for i in range(2):
+    for j in range(3):
+        print(c[i][j])
 
 # d = 10
 # while d<50:
@@ -27,11 +27,11 @@
 #     print(f"{e}꼬마")
 # print("인디언")
 
-while True:
-    player = int(input("1을 입력하여 게임을 종료하세요."))
-    if player == 1:
-        print("끝")
-        break
+# while True:
+#     player = int(input("1을 입력하여 게임을 종료하세요."))
+#     if player == 1:
+#         print("끝")
+#         break
 
 
 
